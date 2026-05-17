@@ -1,0 +1,8 @@
+{
+  "name": "Vibrant Calc Pro",
+  "description": "A clean, high-contrast calculator with a vibrant palette, featuring standard and scientific modes with bold typography.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
