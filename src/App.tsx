@@ -135,14 +135,14 @@ export default function App() {
   ];
 
   return (
-    <div className="flex flex-col h-full max-h-[820px] w-full max-w-[400px] mx-auto relative bg-surface md:rounded-4xl md:my-4 shadow-2xl border-4 border-white ring-1 ring-slate-200 overflow-hidden" id="app-root">
+    <div className="flex flex-col h-full w-full relative bg-surface overflow-hidden" id="app-root">
       
-      <header className="flex items-center justify-between px-6 pt-6 pb-2" id="main-header">
+      <header className="flex items-center justify-between px-6 pb-2" style={{ paddingTop: 'calc(1.5rem + env(safe-area-inset-top))' }} id="main-header">
         <div className="flex items-center gap-3">
           <button className="text-on-surface-variant hover:text-on-surface p-1.5 rounded-xl transition-colors" id="menu-btn">
             <Menu size={18} />
           </button>
-          <span className="text-on-surface-variant font-black text-[10px] tracking-widest uppercase">Vibrant Calc Pro</span>
+          <span className="text-on-surface-variant font-black text-[10px] tracking-widest uppercase">CALCULATOR</span>
         </div>
 
         <div className="bg-slate-100 rounded-2xl p-1 flex relative w-36" id="mode-toggle">
@@ -186,8 +186,8 @@ export default function App() {
 
       <main className="flex-1 flex flex-col overflow-hidden">
         {appMode === 'calculator' && (
-          <div className="flex-1 flex flex-col">
-            <Display expression={expression} result={result} />
+          <div className="flex-1 flex flex-col overflow-hidden">
+            <Display expression={expression} result={result} history={history} />
 
             <div className="bg-surface-dim px-6 pt-2 pb-6 grid gap-4 select-none shrink-0" id="keypad">
               <AnimatePresence initial={false} mode="wait">

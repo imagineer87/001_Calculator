@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 아이콘 전체 구성을 그룹으로 묶어 중앙 정렬 -->
+    <group android:translateX="18" android:translateY="18">
+
+        <!-- 파란색 버튼들 (그리드 배경) -->
+        <!-- Row 1 -->
+        <path android:fillColor="#0D52A1" android:pathData="M2,2h12a2,2 0 0 1 2,2v12a2,2 0 0 1 -2,2h-12a2,2 0 0 1 -2,-2v-12a2,2 0 0 1 2,-2z"/> <!-- - 버튼 -->
+        <path android:fillColor="#0D52A1" android:pathData="M20,2h12a2,2 0 0 1 2,2v12a2,2 0 0 1 -2,2h-12a2,2 0 0 1 -2,-2v-12a2,2 0 0 1 2,-2z"/> <!-- x 버튼 -->
+
+        <!-- Row 2 -->
+        <path android:fillColor="#0D52A1" android:pathData="M2,20h12a2,2 0 0 1 2,2v12a2,2 0 0 1 -2,2h-12a2,2 0 0 1 -2,-2v-12a2,2 0 0 1 2,-2z"/>
+        <path android:fillColor="#0D52A1" android:pathData="M20,20h12a2,2 0 0 1 2,2v12a2,2 0 0 1 -2,2h-12a2,2 0 0 1 -2,-2v-12a2,2 0 0 1 2,-2z"/>
+        <path android:fillColor="#0D52A1" android:pathData="M38,20h12a2,2 0 0 1 2,2v12a2,2 0 0 1 -2,2h-12a2,2 0 0 1 -2,-2v-12a2,2 0 0 1 2,-2z"/> <!-- ÷ 버튼 -->
+
+        <!-- Row 3 -->
+        <path android:fillColor="#0D52A1" android:pathData="M2,38h12a2,2 0 0 1 2,2v12a2,2 0 0 1 -2,2h-12a2,2 0 0 1 -2,-2v-12a2,2 0 0 1 2,-2z"/>
+        <path android:fillColor="#0D52A1" android:pathData="M20,38h12a2,2 0 0 1 2,2v12a2,2 0 0 1 -2,2h-12a2,2 0 0 1 -2,-2v-12a2,2 0 0 1 2,-2z"/>
+        <path android:fillColor="#0D52A1" android:pathData="M38,38h12a2,2 0 0 1 2,2v12a2,2 0 0 1 -2,2h-12a2,2 0 0 1 -2,-2v-12a2,2 0 0 1 2,-2z"/>
+
+        <!-- 주황색 강조 버튼들 -->
+        <!-- 큰 플러스 버튼 (Top Right) -->
+        <path android:fillColor="#F58220" android:pathData="M38,2h30a4,4 0 0 1 4,4v30a4,4 0 0 1 -4,4h-30a4,4 0 0 1 -4,-4v-30a4,4 0 0 1 4,-4z"/>
+
+        <!-- 세로로 긴 등호 버튼 (Bottom Right) -->
+        <path android:fillColor="#F58220" android:pathData="M56,38h12a4,4 0 0 1 4,4v26a4,4 0 0 1 -4,4h-12a4,4 0 0 1 -4,-4v-26a4,4 0 0 1 4,-4z"/>
+
+        <!-- 기호들 (흰색) -->
+        <!-- 플러스 (+) -->
+        <path android:fillColor="#FFFFFF" android:pathData="M51,12h4v8h8v4h-8v8h-4v-8h-8v-4h8z"/>
+        <!-- 빼기 (-) -->
+        <path android:fillColor="#FFFFFF" android:pathData="M5,10h6v2h-6z"/>
+        <!-- 곱하기 (x) -->
+        <path android:fillColor="#FFFFFF" android:pathData="M24.5,7.5l1.5,1.5l-1.5,1.5l1.5,1.5l-1.5,1.5l-1.5,-1.5l-1.5,1.5l-1.5,-1.5l1.5,-1.5l-1.5,-1.5l1.5,-1.5l1.5,1.5z"/>
+        <!-- 나누기 (÷) -->
+        <path android:fillColor="#FFFFFF" android:pathData="M44,24.5h4v1.5h-4zM46,23a1,1 0 1 1 0,-2a1,1 0 1 1 0,2zM46,29a1,1 0 1 1 0,-2a1,1 0 1 1 0,2z"/>
+        <!-- 등호 (=) -->
+        <path android:fillColor="#FFFFFF" android:pathData="M60,52h8v2h-8zM60,56h8v2h-8z"/>
+
+    </group>
+</vector>

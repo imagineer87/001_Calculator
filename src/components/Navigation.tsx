@@ -16,7 +16,7 @@ export function Navigation({ activeMode, onModeChange }: NavigationProps) {
   ];
 
   return (
-    <div className="flex items-center justify-around w-full bg-white/80 backdrop-blur-md pt-2 pb-6 px-8 border-t border-slate-100" id="bottom-nav">
+    <div className="flex items-center justify-around w-full bg-white/80 backdrop-blur-md pt-2 px-8 border-t border-slate-100" style={{ paddingBottom: 'calc(1.5rem + env(safe-area-inset-bottom))' }} id="bottom-nav">
       {tabs.map((tab) => {
         const isActive = activeMode === tab.id;
         return (
